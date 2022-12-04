@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Zyn-Tech School Academy</title>
+    </head>
+
+    <body>
+        <!--navbar section-->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-1 h1">Zyn-Tech School Academy</span>
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="#"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#produk"
+                                        >Produk</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#promo">Info</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                        >Kontak</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!--end of navbar section-->
+
+        <!--slider section-->
+        <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="images/pexels-carlos-oliva-3586966.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The LightDark City</h5>
+                        <p>Best photo in 2016-2017</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="images/pexels-maxime-francis-2246476.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Silent Crowd</h5>
+                        <p>Winner of the most aesthetic photo in 2018</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="images/pexels-pixabay-33545.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Heaven Taste</h5>
+                        <p>The Best Photo in 2021-2022</p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--end  of slider section-->
+
+        <!--jumbotron-->
+
+        <div class="jumbotron bg-dark text-light p-5">
+            <div class="container text-center">
+                <h1 class="display-4"><strong> Zyn-Tech School Academy</strong></h1>
+                <p class="lead">
+                    Solusi terbaik untuk mempelajari tentang fotografi dan
+                    videografi untuk pemula dan profesional
+                </p>
+                <hr class="my-4" />
+                <p>
+                    Kami menawarkan beberapa paket untuk belajar fotografi dan
+                    videografi mulai dari kelas novice hingga advance dengan
+                    harga yang sangat bersahabat
+                </p>
+                <p class="lead">
+                    <a
+                        class="btn btn-primary btn-lg"
+                        href="Jumbo action link"
+                        role="button"
+                        >Learn More</a
+                    >
+                </p>
+            </div>
+        </div>
+
+        <!--end of jumbotron-->
+
+        <!-- card section -->
+        <section class="p-5" id="produk">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div
+                            class="card bg-dark text-light mb-3"
+                            style="width: 18rem"
+                        >
+                            <img
+                                src="images/undraw_mobile_photos_psm5.svg"
+                                class="card-img-top"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Novice</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <p>
+                                    <strong> Harga Mulai Dari :</strong> Rp. 350.000
+                                </p>
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#beli1"
+                                    class="btn btn-primary"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div
+                            class="card bg-dark text-light mb-3"
+                            style="width: 18rem"
+                        >
+                            <img
+                                src="images/undraw_Camera_re_cnp4.svg"
+                                class="card-img-top"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Intermediate</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <p>
+                                    <strong> Harga Mulai Dari :</strong> Rp. 700.000
+                                </p>
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#beli2"
+                                    class="btn btn-primary"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div
+                            class="card bg-dark text-light"
+                            style="width: 18rem"
+                        >
+                            <img
+                                src="images/undraw_product_photography_91i2.svg"
+                                class="card-img-top"
+                                alt=""
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Advance</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <p>
+                                    <strong> Harga Mulai Dari :</strong> Rp. 1.300.000
+                                </p>
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#beli3"
+                                    class="btn btn-primary"
+                                    >Buy</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of card section -->
+
+        <!-- table section -->
+        <div class="container mb-5" id="promo">
+            <div class="row">
+                <div class="col text-center bg-dark text-light">
+                    <h1>PROMO PAKET</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Paket</th>
+                                <th scope="col">Isi</th>
+                                <th scope="col">Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><strong> Paket Ke Bawah
+
+                                </strong></td>
+                                <td>Novice Class + Intermediate Class</td>
+                                <td><s> Rp. 1.050.000</s> = Rp. 870.000</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary">More</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><strong> Paket Menegah</strong></td>
+                                <td>Intermediate Class + Advance Class</td>
+                                <td><s> Rp. 2.000.000</s> = Rp. 1.580.000</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary">More</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><strong> Paket Ke Atas</strong></td>
+                                <td>
+                                    Novice Class + Intermediate Class + Advance
+                                    Class
+                                </td>
+                                <td><s> Rp. 2.350.000</s> = Rp. 1.800.000</td>
+                                <td>
+                                    <a href="#" class="btn btn-primary">More</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- end of table section -->
+
+        <!-- footer section -->
+        <footer class="p-5 bg-dark text-light text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; 2021 Zyn-Tech School Academy</p>
+
+                <a href="" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+        </footer>
+        <!--end of footer section -->
+
+        <!-- Modal kontak -->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Kirim Pesan
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label
+                                for="exampleFormControlInput1"
+                                class="form-label"
+                                >Email</label
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                placeholder="Email anda"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label
+                                for="exampleFormControlTextarea1"
+                                class="form-label"
+                                >Pesan</label
+                            >
+                            <textarea
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="3"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of modal section -->
+
+        <!-- modal beli 1 -->
+        <div class="modal" id="beli1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Kelas Novice</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Anda yakin untuk membeli kelas Novice seharga :
+                            <strong>Rp. 350.000</strong>?
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Batal
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Beli
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of modal beli 1 -->
+
+        <!-- modal  beli 2 -->
+        <div class="modal" id="beli2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Kelas Intermediate</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Anda yakin untuk membeli kelas Intermediate seharga
+                            :
+                            <strong>Rp. 700.000</strong>?
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Batal
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Beli
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of modal  beli 2 -->
+
+        <!-- modal beli 3 -->
+        <div class="modal" id="beli3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Kelas Advance</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Anda yakin untuk membeli kelas Advance seharga :
+                            <strong>Rp. 1.300.000</strong>?
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Batal
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Beli
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of modal beli 3 -->
+
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
